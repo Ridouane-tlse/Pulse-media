@@ -23,3 +23,6 @@
 @media(max-width:820px){.hero:before{background-image:url('assets/hero-clean.webp');background-size:auto 100%;background-position:right center}}
 .feature-dark{background:radial-gradient(circle at 88% 18%,rgba(28,96,169,.28),transparent 38%),linear-gradient(112deg,#06172e,#0a2445)}
 .feature-light{background:radial-gradient(circle at 88% 18%,rgba(134,175,216,.24),transparent 40%),linear-gradient(112deg,#fffdf9,#eff4f9)}
+
+/* Keep arrow artwork proportional to its circular button at every width. */
+.feature-arrow svg{width:70%;height:70%;display:block;transform:translateX(-1.5px)}
